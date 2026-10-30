@@ -51,5 +51,4 @@ Logi Options+ Actions Ring or **System > Open** on Stream Deck.
 
 ## License
 
-[MIT](LICENSE). The code is in `src/ForceQuit.applescript`, `build.sh` builds
-the app, and `scripts/make-icon.swift` draws the icon.
+[MIT](LICENSE)
