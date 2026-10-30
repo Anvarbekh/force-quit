@@ -2,14 +2,17 @@
 
 # Force Quit
 
-A tiny macOS app that opens the **Force Quit Applications** window. Use it
-from tools that can open an app but can't trigger ⌘⌥Esc, such as the Logi
-Options+ Actions Ring, Stream Deck, Keyboard Maestro, or BetterTouchTool.
+A tiny macOS app that opens the **Force Quit Applications** window.
 
-macOS only opens the Force Quit window when ⌘⌥Esc comes from a real keyboard.
-When another app sends the same keys, macOS
-[ignores them](https://forum.keyboardmaestro.com/t/f19-programing/32880).
-This app clicks **Apple menu > Force Quit…** for you instead.
+I made it for myself. I just wanted a Force Quit shortcut in the Actions Ring
+of my Logitech MX Master 3S, but ⌘⌥Esc from the ring did nothing. macOS only
+opens the Force Quit window when those keys come from a real keyboard, and
+[ignores them](https://forum.keyboardmaestro.com/t/f19-programing/32880) when
+another app sends them. So this app clicks **Apple menu > Force Quit…**
+instead.
+
+It works from anything that can open an app, such as the Logi Options+ Actions
+Ring, Stream Deck, Keyboard Maestro, or BetterTouchTool.
 
 - Works in any macOS language, because it finds the menu item by its ⌥⌘Esc
   shortcut.
